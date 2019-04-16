@@ -4,7 +4,7 @@ from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('../Dataset/Dataset2.csv')
+data = pd.read_csv('../Dataset/Dataset1.csv')
 
 scaler = StandardScaler()
 scaledData = scaler.fit_transform(data)
